@@ -3,12 +3,6 @@ while True:
     a=float(input(" Enter a value for a : "))
     b=float(input(" Enter a value for b : "))
     operation=input(" Add/Sub/Mul/Div : ").lower()
-    while True:
-      if operation not in ["add","sub","mul","div"]:
-        print(" INVALID OPERATION! TRY AGAIN")
-        continue
-      else:
-        pass
     if (operation=="add"):
       print(a+b)
     elif (operation=="sub"):
