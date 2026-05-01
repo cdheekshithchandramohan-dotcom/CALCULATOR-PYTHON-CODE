@@ -7,6 +7,8 @@ while True:
       if operation not in ["add","sub","mul","div"]:
         print(" INVALID OPERATION! TRY AGAIN")
         continue
+      else:
+        pass
     if (operation=="add"):
       print(a+b)
     elif (operation=="sub"):
